@@ -10,7 +10,8 @@ https://github.com/JohnnyMatharu/GoHelpPal/blob/develop/screenshots/Screen%20Sho
 
 
 # Links to URL: 
-
+https://johnnymatharu.github.io/GoHelpPal/
+https://github.com/JohnnyMatharu/GoHelpPal
 
 # Made by: 
 Johnny (Indermeet) Matharu
