@@ -1,74 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GoHelpPal</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
 
-<body>
-<header class="menu">
-    <h1>GoHelpPal</h1>
-<nav>
-    <!--use flexbox-->
-<ul>
-<li>
-    <a href="#about-me-link">About Me</a>
-</li>
-<li>
-<a href="#project-link">Projects</a>
-</li>
-<li>
-    <a href="#contact-us-link">Contact Us</a>
-</li>
-</ul>
-</nav>    
-</header>
+  <body>
+    <header class="menu">
+      <h1>GoHelpPal</h1>
+      <nav>
+        <!-- Use of flexbox-->
+        <ul>
+          <li>
+            <a href="#about-me-link">About Me</a>
+          </li>
+          <li>
+            <a href="#project-link">Projects</a>
+          </li>
+          <li>
+            <a href="#contact-us-link">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-<!-- The following section will be 2 sections, one for picture and other with brandstatement, equal lenght-->
-<section>
-<div class="center-pic">
-</div>
-<div class="brand-statement" id="about-me-link">
-    <h1>About Me</h1>
+    <!-- The following section is about me-->
+    <section>
+      <div class="center-pic"></div>
+      <div class="brand-statement" id="about-me-link">
+          <br>
+          <br>
+        <h1>Johny Matharu</h1>
+        <br />
+        <p>
+          Passionate for e-commerce, always ready to create something new using
+          web development skills including HTML, CSS, JavaScript, API,
+          Bootstrap, jQuery, Mongo, React, MySQL, Git, Mern, Node.js,
+          Express.js, forming algorithms, pseudocodes and complex data
+          structures. Ability to wireframe using UX/UI techniques and
+          Illustrator, web design prototyping, comfortable at making simple
+          illustrations using illustrator and CSS. Current Bootcamp student,
+          University of Toronto, Full stack web development, previously finished
+          Automotive Business diploma program, Automotive Business School of
+          Canada, Georgian College​​, dean’s listed student, microcomputer
+          applications including MS Office, specializing at Excel Advanced.
+          Worked as an intern at ADESA Toronto, Sourceone as credit analyst,
+          continued Finance Manager at 401 AutoGroup, moved ahead as Business
+          Development Coordinator at Auto Park Humberview group. Worked as a
+          team compiler of all work, coordinated efforts, assigned work
+          according to one’s strength, helped in creation of unique project that
+          can solve numerous problems at a time.
+        </p>
+      </div>
+    </section>
 <br>
-    <p>Passionate for e-commerce, always ready to create something new using web development skills including  HTML, CSS, JavaScript, API, Bootstrap, jQuery, Mongo, React, MySQL, Git,  Mern, Node.js, Express.js, forming algorithms, pseudocodes  and complex data structures. Ability to wireframe using UX/Ui techniques and Illustrator, web design prototyping, comfortable at making simple illustrations using illustrator and CSS. Current Bootcamp student, University of Toronto, Full stack web development, previously finished Automotive Business diploma program, Automotive Business School of Canada, Georgian College​​, dean’s listed student, microcomputer applications including MS Office, specializing at Excel Advanced. Worked as an intern at ADESA Toronto, Sourceone as credit analyst, continued Finance Manager at  401 AutoGroup, moved ahead as Business Development Coordinator at Auto Park Humberview group. Worked as a team compiler of all work, coordinated efforts, assigned work according to one’s strength,  helped in creation of unique project that can solve numerous problems at a time. 
-    </p>
+
+
+    <div class="flexbox-container">
+      <div class="flexbox" id="project-link">
+          <!-- Each name of project  -->
+          <h2><a href="https://johnnymatharu.github.io/run-buddy/">Run-Buddy</a></h2>
+          <img src="./assets/pictures/Run-Buddy-pic.jpg" />
     </div>
 
-</section>
+    <div class="flexbox">
+          <!--All pictures are attached -->
+          <h2>Robot Gladiators</h2>
+          <img src="./assets/pictures/Robot-Gladiator-pic.jpg" />
+        </div>
 
-<div class="flexbox">
-<div class="project1-style" id="project-link">
-<img src="./assets/pictures/Run-Buddy-pic.png" alt="" />
-<!-- Add eact name of projects later  -->
-<h2>Run-Buddy</h2>
-<!--https://johnnymatharu.github.io/run-buddy/-->
-</div>
-<div class="project2-style">
-    <!--All pics should move to back and resize div for flexbox, change heading font-->
-    <img src="./assets/pictures/Robot-Gladiator-pic.jpg" alt="" />
-    <h2>Robot Gladiators</h2>
-</div>
-<div class="project3-style">
-    <img src="./assets/pictures/Horiseon-pic.png" alt="" />
-    <h2>Horiseon Social Solution Services</h2>
-    <!-- https://johnnymatharu.github.io/Horiseon-Social-Solution-Services/
-    -->
-</div>
-<div class="project4-style">
-    <img src="./assets/pictures/Maunny-pic.png" alt="" />
-    <h2>Maunny</h2>
-    <!--https://maunny.ca/
-    -->
-</div>
-</div>
+      <div class="flexbox">
+          <h2><a href="https://johnnymatharu.github.io/Horiseon-Social-Solution-Services/">Horiseon Social Solution Services</a></h2>
+          <img src="./assets/pictures/Horiseon-pic.jpg" />
+        </div>
 
-<footer class="contact" id="contact-us-link">
-<h2 >Call us: 4169980934</h2> 
-<h2>Email us: jaani.matharu@gmail.com</h2>
-<!-- make adjustments if needed or use flexbox-->
-</footer>
-</body>
+        <div class="flexbox">
+          <h2><a href="https://maunny.ca/">Maunny</h2></a>      
+          <img src="./assets/pictures/Maunny-pic.jpg" />
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+
+
+
+    <footer class="contact" id="contact-us-link">
+        <br>
+      <br>
+      <br>
+      <h3>Contact Us:</h3>
+      
+
+        <h3>Call us: 1 - (416) - 998 - 0934</h3>
+  
+      <h3>jaani.matharu@gmail.com</h3>
+      <br>
+      <br>
+    <br>
+      <!-- Use of flexbox in the footer-->
+    </footer>
+  </body>
 </html>
