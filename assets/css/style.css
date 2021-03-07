@@ -1,0 +1,104 @@
+* { 
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body 
+{
+    background-color: rgb(171, 205, 209);
+}
+
+.menu {
+    padding: 18 px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:blue;
+}
+header h1
+{
+    color: rgb(6, 199, 6);
+    font-size: 36;
+    font-weight: bold;
+}
+
+header nav 
+{
+padding-top: 15 px;
+margin-right: 18 px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;
+}
+
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+
+header nav ul li a 
+{
+padding: 50px;
+font-size: 21px;
+}
+
+header
+{
+padding: 24px;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+position: sticky;
+top: 0;
+}
+
+.center-pic
+{
+size: 50%;
+
+}
+/*fix width*/
+section
+{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+/*fix width*/
+.flexbox
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+footer
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
