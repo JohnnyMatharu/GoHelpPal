@@ -132,6 +132,10 @@ section
     transform: scale(1.5);
 }
 
+div img:hover
+{
+    transform: scale(3);
+}
 
 h2 
 {
@@ -151,3 +155,7 @@ footer
     align-items: center;
 }
 
+div img
+{
+    width:3%
+}
